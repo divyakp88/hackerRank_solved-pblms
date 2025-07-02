@@ -1,3 +1,4 @@
+
 #Given an integer,n, print the following values for each integer i from 1 to n:
 #1.Decimal
 #2.Octal
