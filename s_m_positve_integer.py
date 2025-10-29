@@ -1,13 +1,13 @@
 
 def smallest_integer(list1):
-    list1=sorted(set(list1))
-    smallest=1
-    for num in list1:
-        if num==smallest:
-            smallest=smallest+1
+    for i in range(n):
+        while 1<=list1[i]<=n and list1[i]!=list1[list1[i]-1]:
+            list1[i],list1[list1[i]-1]=list1[list1[i]-1],list1[i]
 
-    return smallest
-
+    for i in range(n):
+        if list1[i]!=i+1
+            return i+1
+    return n+1
 if __name__=='__main__':
     list1=[]
     n=int(input().strip())
